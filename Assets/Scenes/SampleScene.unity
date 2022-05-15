@@ -401,12 +401,12 @@ MonoBehaviour:
     description: 
   - instance: {fileID: 1806618187}
     acquired: 0
-    title: 'News Article: U a dumbass'
-    description: BREAKING NEWS!!!! U stupid
+    title: Piece of paper
+    description: It's a piece of paper.
   - instance: {fileID: 1974594515}
     acquired: 0
-    title: It's a tiny key just like my di-
-    description: IDFK it's a fucking key. It open door
+    title: Door key
+    description: It opens doors
   - instance: {fileID: 406396813}
     acquired: 0
     title: 
@@ -6540,7 +6540,7 @@ Camera:
     height: 1
   near clip plane: 0.01
   far clip plane: 1000
-  field of view: 45
+  field of view: 60
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -9245,6 +9245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Book
       objectReference: {fileID: 0}
+    - target: {fileID: -6550190397485507473, guid: 8ca38083d068acf4496c447479d3b02b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -6492859552171668941, guid: 8ca38083d068acf4496c447479d3b02b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -9970,7 +9974,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 14.1
-  m_ReferenceResolution: {x: 320, y: 180}
+  m_ReferenceResolution: {x: 320, y: 240}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
